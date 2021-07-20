@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#landingreci {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#landingreci .section {
+  padding-top: 180px;
+  margin-top: -180px;
+}
+
+@media (max-width: 500px) {
+  #landingreci .section {
+    padding-top: 185px;
+    margin-top: -185px;
+  }
+}
+
+#landingreci .headerreci {
+  width: 125%;
+  max-width: 1400px;
+}
+
+@media (max-width: 700px) {
+  #landingreci .headerreci {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+}
+
+#landingreci .headerreci picture {
+  width: 100%;
+}
+
+#landingreci .headerreci picture img {
+  width: 100%;
+}
+
+#landingreci .headertxt p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #000000;
+  margin: 4% 0%;
+  white-space: break-spaces;
+}
+
+@media (max-width: 700px) {
+  #landingreci .headertxt p {
+    font-size: 14px;
+  }
+}
+
+#landingreci #section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+}
+
+#landingreci #section1 .titlereci {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+}
+
+#landingreci #section1 .tablebody {
+  background-color: #F4F4F4;
+  width: 100%;
+  padding: 3%;
+  position: relative;
+}
+
+#landingreci #section1 .tablebody .question {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+}
+
+#landingreci #section1 .tablebody .question .iconquestion {
+  margin-right: 30px;
+  max-width: 100%;
+}
+
+#landingreci #section1 .tablebody .question p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #000000;
+}
+
+@media (max-width: 700px) {
+  #landingreci #section1 .tablebody .question p {
+    font-size: 14px;
+  }
+}
+
+#landingreci span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */

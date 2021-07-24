@@ -83,6 +83,7 @@ body {
   flex-direction: column;
   width: 100%;
   max-width: 100%;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 700px) {
@@ -160,6 +161,7 @@ body {
   align-items: flex-start;
   justify-content: space-evenly;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 #landingreci #section2 .containericons1 picture {
@@ -191,6 +193,8 @@ body {
   align-items: space-evenly;
   justify-content: center;
   width: 100%;
+  margin-left: 2%;
+  margin-top: 10px;
 }
 
 #landingreci #section3 .containericons2 picture {
@@ -221,11 +225,25 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  width: 100%;
+  width: 85%;
+}
+
+@media (max-width: 700px) {
+  #landingreci #section4 .containericons3 {
+    width: 100%;
+  }
 }
 
 #landingreci #section4 .containericons3 picture {
   width: 16%;
+  margin: 2%;
+}
+
+@media (max-width: 700px) {
+  #landingreci #section4 .containericons3 picture {
+    width: 28%;
+    margin: 0%;
+  }
 }
 
 #landingreci #section4 .containericons3 picture img {

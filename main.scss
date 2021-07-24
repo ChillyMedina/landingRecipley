@@ -71,6 +71,7 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 100%;
+    margin-bottom: 20px;
     @media(max-width: 700px){
       width: 90%;
     }
@@ -127,6 +128,7 @@ body {
       align-items: flex-start;
       justify-content: space-evenly;
       width: 100%;
+      margin-bottom: 20px;
       picture {
         width: 20%;
         @media(max-width: 700px){
@@ -149,9 +151,11 @@ body {
     .containericons2 {
       display:flex;
       flex-wrap: wrap;
-      align-items: space-evenly ;
+      align-items: space-evenly;
       justify-content: center;
       width: 100%;
+      margin-left: 2%;
+      margin-top: 10px;
       picture {
         width: 14%;
         @media(max-width: 700px){
@@ -176,9 +180,17 @@ body {
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-evenly;
-      width: 100%;
+      width: 85%;
+      @media(max-width: 700px){
+        width: 100%;
+      }
       picture {
         width: 16%;
+        margin: 2%;
+        @media(max-width: 700px){
+          width: 28%;
+          margin: 0%;
+        }
         img{
           width: 100%;
         }
